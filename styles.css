@@ -1154,6 +1154,14 @@ a:hover {
   gap: 1.25rem;
 }
 
+@media (min-width: 1024px) {
+  .gallery-tile-stack {
+    overflow: auto;
+    max-height: min(72vh, 620px);
+    padding-right: 0.25rem;
+  }
+}
+
 .gallery-tile-band {
   display: flex;
   flex-direction: column;
